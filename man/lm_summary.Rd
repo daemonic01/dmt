@@ -27,7 +27,7 @@ lm_summary(
 \item{RMSE}{A boolean value that controls the display of the RMSE variable.}
 }
 \value{
-Az összeg
+Model Summary table
 }
 \description{
 This function creates Model Summary table from lm() objects in usefule format.
