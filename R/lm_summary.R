@@ -1,8 +1,6 @@
 #' DMT
 #'
-#' This function creates Model Summary table from lm() objects in usefule format.
-#'
-#' @importFrom DMT lm_summary
+#' This function creates Model Summary table from lm() objects in useful format.
 #'
 #' @param model_data An lm() object from which the data is generated.
 #' @param Sigma A boolean value that controls the display of the Sigma variable.

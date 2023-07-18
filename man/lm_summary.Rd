@@ -30,7 +30,7 @@ lm_summary(
 Az összeg
 }
 \description{
-This function creates Model Summary table from lm() objects in usefule format.
+This function creates Model Summary table from lm() objects in useful format.
 }
 \examples{
 model_data <- lm(dist ~ speed, data = cars)
