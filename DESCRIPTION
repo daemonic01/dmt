@@ -1,0 +1,10 @@
+Package: DMT
+Type: Package
+Title: Daemonic Model Tools
+Version: 0.0.1.0
+Authors@R:
+  person("Dominik", "Kopócs", , "dominik.kopocs@gmail.com", role = c("aut", "cre"))
+Description: The package turns models and hypothesis tests data to useful form.
+License: none
+Maintainter:
+  person("Dominik", "Kopócs", , "dominik.kopocs@gmail.com", role = c("aut", "cre"))
