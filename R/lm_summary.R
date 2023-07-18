@@ -1,5 +1,17 @@
-
-# This script creates a model summary table from one or more lm objects.
+#' Linear Models Summary Table
+#'
+#' This function creates a model summary table from one or more lm objects.
+#'
+#' @param model_data An lm() object from which the data is generated.
+#' @param Sigma A boolean value that controls the display of the Sigma variable.
+#' @param AIC A boolean value that controls the display of the AIC variable.
+#' @param BIC A boolean value that controls the display of the BIC variable.
+#' @param LogLik A boolean value that controls the display of the LogLik variable.
+#' @param RMSE A boolean value that controls the display of the RMSE variable.
+#' @return Az összeg
+#' @examples
+#' model_data <- lm(dist ~ speed, data = cars)
+#' lm_summary(model_data)
 
 # Taking model data, creating summaries
 lm_summary <- function(model_data, Sigma = FALSE, AIC = TRUE, BIC = TRUE, LogLik = TRUE, RMSE = TRUE) {
@@ -104,4 +116,3 @@ lm_summary <- function(model_data, Sigma = FALSE, AIC = TRUE, BIC = TRUE, LogLik
   # Return table
   return(form_model_summary_table)
 }
-
