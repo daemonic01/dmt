@@ -9,3 +9,5 @@ License: none
 Maintainter:
   person("Dominik", "Kopócs", , "dominik.kopocs@gmail.com", role = c("aut", "cre"))
 RoxygenNote: 7.2.3
+Imports:
+  DMT
