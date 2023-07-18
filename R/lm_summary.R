@@ -105,5 +105,3 @@ lm_summary <- function(model_data, Sigma = FALSE, AIC = TRUE, BIC = TRUE, LogLik
   return(form_model_summary_table)
 }
 
-# Fasz kivan!!!
-
