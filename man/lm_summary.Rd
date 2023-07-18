@@ -27,7 +27,7 @@ lm_summary(
 \item{RMSE}{A boolean value that controls the display of the RMSE variable.}
 }
 \value{
-Az összeg
+The return variable is a dataframe with the model data.
 }
 \description{
 This function creates Model Summary table from lm() objects in useful format.
@@ -35,5 +35,4 @@ This function creates Model Summary table from lm() objects in useful format.
 \examples{
 model_data <- lm(dist ~ speed, data = cars)
 lm_summary(model_data)
-
 }

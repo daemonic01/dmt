@@ -8,12 +8,11 @@
 #' @param BIC A boolean value that controls the display of the BIC variable.
 #' @param LogLik A boolean value that controls the display of the LogLik variable.
 #' @param RMSE A boolean value that controls the display of the RMSE variable.
-#' @return Az összeg
+#' @return The return variable is a dataframe with the model data.
+#' @export
 #' @examples
 #' model_data <- lm(dist ~ speed, data = cars)
 #' lm_summary(model_data)
-#' 
-#' @export
 lm_summary <- function(model_data, Sigma = FALSE, AIC = TRUE, BIC = TRUE, LogLik = TRUE, RMSE = TRUE) {
   
   # Checking the format of model_data and the number of arguments.
