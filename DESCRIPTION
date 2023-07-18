@@ -10,3 +10,7 @@ License: none
 Maintainter:
   person("Dominik", "Kopócs", , "dominik.kopocs@gmail.com", role = c("aut", "cre"))
 RoxygenNote: 7.2.3
+Depends:
+    R (>= 3.2.0)
+Imports:
+    stats
