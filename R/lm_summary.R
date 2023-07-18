@@ -1,8 +1,6 @@
-#' @importFrom DMT lm_summary
+#' DMT
 #'
-#' Linear Models Summary Table
-#'
-#' This function creates a model summary table from one or more lm objects.
+#' This function creates Model Summary table from lm() objects in usefule format.
 #'
 #' @param model_data An lm() object from which the data is generated.
 #' @param Sigma A boolean value that controls the display of the Sigma variable.
@@ -14,15 +12,11 @@
 #' @examples
 #' model_data <- lm(dist ~ speed, data = cars)
 #' lm_summary(model_data)
-
-# Taking model data, creating summaries
+#' 
+#' @export
 lm_summary <- function(model_data, Sigma = FALSE, AIC = TRUE, BIC = TRUE, LogLik = TRUE, RMSE = TRUE) {
   
-  ### Check packages
-  source("R/requirements.R")
-  requirements_check()
-  
-  # Checking the format of 'model_data' and the number of arguments.
+  # Checking the format of model_data and the number of arguments.
   if (!inherits(model_data, "lm")) {
     stop("The 'model_data' must be an lm() object.")
   }
