@@ -1,3 +1,5 @@
+#' @importFrom DMT lm_summary
+#'
 #' Linear Models Summary Table
 #'
 #' This function creates a model summary table from one or more lm objects.
